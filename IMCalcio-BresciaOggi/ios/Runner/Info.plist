@@ -31,7 +31,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Richiesto per caricare le distinte delle partite.</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>Ci serve per fornirti annunci personalizzati e mantenere l'app gratuita.</string>
+	<string>SportBrescia utilizza i tuoi dati per mostrarti pubblicità personalizzate in base ai tuoi interessi sportivi e mantenere l'app gratuita. Ad esempio, se segui il calcio o altri sport locali, potresti vedere annunci di sponsor, eventi sportivi o prodotti correlati nella tua zona. Questo ci permette di offrire l'app gratuitamente.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
