@@ -196,8 +196,8 @@ class _AddMatchPhotoPageState extends State<AddMatchPhotoPage> {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           content: Text("Immagine caricata con successo.")));
 
-      setState(() { //Add it to the listview of the images
-        _imagesFuture.add(_downloadImage(uploadedImageID!));
+      setState(() { //Reload the images list to display the newly uploaded photo
+        _imagesIDFuture = _loadUploadedImages();
       });
     }
     else { //Upload failed
